@@ -1,0 +1,52 @@
+site_name: Clockwork Odyssey Wiki
+site_url: http://127.0.0.1:8000/mysite/
+repo_url: https://github.com/RLLanonymous/Clockwork-Odyssey-Modpack
+repo_name: Clockwork Odyssey
+
+copyright: Copyright &copy; 2024 - 2025 Oméga Studios | Create with Mkdocs and Material Theme.
+
+theme:
+  name: material
+  language: en
+  logo: assets/logo.png
+  favicon: images/favicon.png
+  features:
+    - navigation.path
+    - navigation.indexes
+    - header.autohide
+    - navigation.footer
+    - search.suggest
+    - optimize
+  palette:
+    primary: blue
+    accent: light blue
+  icon:
+    repo: fontawesome/brands/github
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - F.A.Q: faq.md
+
+extra_css:
+    - stylesheets/extra.css
+
+extra_javascript:
+    - javascripts/extra.js
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/RLLanonymous/Clockwork-Odyssey-Modpack
+      name: Github Repository
+
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/EspJyACXb4
+      name: Discord
+
+plugins:
+  - search
+  - social
+
+markdown_extensions:
+  - abbr
