@@ -3,7 +3,12 @@ title: Clockwork Odyssey Home
 description: Welcome to the clockwork odyssey main page.
 ---
 
-# Home - Information
+# Home 
+
+Welcome to the Clockwork Odyssey Wiki, you can use the navigation bar on your left or the arrow on the bottom to select the desired wiki page.
+
+## Github Repository Info :
+
 
 ![GitHub Tag](https://img.shields.io/github/v/tag/RLLanonymous/Clockwork-Odyssey-Modpack?include_prereleases&sort=date&style=for-the-badge&logo=gitbook&label=Latest%20Version&color=%2307B1E0)
 

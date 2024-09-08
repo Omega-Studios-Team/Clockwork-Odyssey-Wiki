@@ -3,7 +3,7 @@ site_url: http://127.0.0.1:8000/mysite/
 repo_url: https://github.com/RLLanonymous/Clockwork-Odyssey-Modpack
 repo_name: Clockwork Odyssey
 
-copyright: Copyright &copy; 2024 - 2025 Oméga Studios | Create with Mkdocs and Material Theme.
+copyright: Copyright &copy; 2024 - 2025 Oméga Studios | Created with Mkdocs and Material Theme.
 
 theme:
   name: material
@@ -18,10 +18,11 @@ theme:
     - search.suggest
     - optimize
   palette:
-    primary: blue
+    primary: deep orange
     accent: light blue
   icon:
     repo: fontawesome/brands/github
+
 nav:
   - Home: index.md
   - Installation: installation.md
@@ -43,6 +44,9 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/EspJyACXb4
       name: Discord
+
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:ethanweirich31@gmail.com
 
 plugins:
   - search
